@@ -1,0 +1,285 @@
+body {
+
+    background-color: #e5eaf5;
+
+}
+
+.headerxinchao {
+
+    text-align: center;
+
+    margin: 40px 0 27px 0;
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    width: 730px;
+
+    margin: 0 auto;
+
+    padding: 10px;
+
+    border-radius: 15px;
+
+    background-color: #fcf5f5;
+
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+
+}
+
+.danhsachsp_desc {
+
+    padding: 10px 0 10px 0;
+
+    position: relative;
+
+    text-align: center;
+
+    font-size: 26px;
+
+}
+
+.danhsachsp_desc::before {
+
+    position: absolute;
+
+    content: "";
+
+    width: 16%;
+
+    top: 50%;
+
+    left: 0;
+
+    height: 3px;
+
+    background-color: rgb(181, 181, 181);
+
+}
+
+.danhsachsp_desc::after {
+
+    position: absolute;
+
+    content: "";
+
+    width: 16%;
+
+    top: 50%;
+
+    right: 0;
+
+    height: 3px;
+
+    background-color: rgb(181, 181, 181);
+
+}
+
+.bangds {
+
+    background-color: white;
+
+    margin-top: 20px;
+
+    width: 100%;
+
+    border-spacing: 0;
+
+    border-collapse: collapse;
+
+}
+
+.bangds th {
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+thead tr th:nth-child(3) {
+    text-align: end;
+}
+tbody tr td:nth-child(3) {
+    text-align: end;
+}
+.bangds thead tr:first-child {
+
+    background-color: #ffed86;
+
+}
+
+.bangds td, .bangds th {
+
+    padding: 20px 6px;
+
+    text-align: center;
+
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+}
+
+.dangxuat_btn {
+
+    padding: 10px;
+
+    background-color: rgb(181, 181, 181);
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    color: white;
+
+    font-weight: 500;
+
+    font-size: 18px;
+
+    transition: all 0.25s ease-in 0s;
+
+}
+
+.dangxuat_btn:hover {
+
+    background-color: rgb(235, 98, 21);
+
+}
+
+.txtcenter {
+
+    padding: 15px;
+
+    text-align: center;
+
+    margin-top: 15px;
+
+}
+
+.optionimg {
+
+    width: 30px;
+
+}
+
+.bangds td {
+
+    padding: 10px 6px;
+    position: relative;
+    vertical-align: middle;
+
+}
+.xemchitietbtn {
+    text-decoration: none;
+}
+/* code bangchitiet */
+#bangchitiet {
+    margin: 0 auto 50px auto;
+    width: 750px;
+    position: relative;
+}
+.bangct {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    background-color: #fcfafa;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    display: block;
+}
+.anhchitiet {
+    width: 364px;
+    border-radius: 15px;
+}
+.fullwidth {
+    width: 100%;
+    vertical-align: top;
+}
+.info{font-family: 'Poppins', sans-serif;}
+.tensp {
+    font-size: 37px;
+    margin-top: 20px;
+    color: darkslategrey;
+    font-weight: bold;
+    max-width: 428px;
+    overflow-wrap: break-word;
+}
+.giasp {
+    border: 2px solid #aee5ff;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 31px;
+    font-weight: bold;
+    border-radius: 9px;
+    color: #ffb33b;
+}
+.chitietsp {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 17px;
+    padding-right: 10px;
+}
+.info {
+    margin-left: 39px;
+}
+/* code lay hinh anh chi tiet ajax */
+.anhpopup {
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.anhpopup img {
+    box-shadow: 2px 4px 8px 6px rgba(71, 59, 59, 0.418);
+    border-style: none;
+}
+/* style cho search */
+#inputSearch {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 11px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px 2px rgb(199 157 157 / 80%);
+    border-radius: 5px;
+}
+/* style for exit bangchitiet */
+.exitbangct {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background-color: #dac9c9;
+    right: 0;
+    top: 0;
+    margin: 8px;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.25s ease-in 0s;
+}
+.exitbangct:hover {
+    background-color: rgb(235, 98, 21);
+}
+.hiddenanhsp {
+    display: none;
+    position: absolute;
+    top: -10%;
+    left: -70%;
+    z-index: 2;
+}
+.hiddenanhsp img {
+    width: 180px;
+    border-radius: 15px;
+    border: 2px solid red;
+}

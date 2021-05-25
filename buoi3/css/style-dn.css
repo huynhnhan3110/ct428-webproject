@@ -1,0 +1,102 @@
+* {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5eaf5;
+}
+.login {
+  width: 400px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+
+}
+body {
+    line-height: 1;
+    background-color: #d6dfef;
+    background-image: url(./backgroundlogin.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.spanthongbao {
+    text-align: center;
+    opacity: 0;
+    display: block;
+    margin: 9px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #ff1f1f;
+    font-weight: 600;
+    font-size: 13px;
+}
+.login-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #373941;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.login-field {
+  display: flex;
+  align-items: center;
+  background-color: #d6dfef;
+  padding: 15px;
+  border-radius: 16px;
+  margin-bottom: 20px; 
+}
+.login-icon {
+  color: #344667;
+  font-size: 16px;
+  width: 20px;
+  text-align: center;
+}
+.login-input {
+  border: 0;
+  padding-left: 15px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  font-size: 13px;
+}
+.login-submit {
+  color: white;
+  background-color: #4353be;
+  padding: 10px;
+  border-radius: 16px;
+  border: 0;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.4s;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+.login-submit:hover {
+  color: #3b4c9b;
+  background-color: #e5eaf5;
+}
+.login-forgot-password {  
+  display: none;
+  text-decoration: none; 
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff1f1f;
+  font-weight: 600;
+  font-size: 13px;
+  font-family: 'Poppins', sans-serif;  
+}
+.dangkybtn {
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: center;
+	padding: 13px;
+	background-color: crimson;
+}

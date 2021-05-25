@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.themsp_desc, .themsp_heading {
+    margin: 15px;
+    text-align: center;
+}
+.form__container {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.bangthemsp,.bangthemsp td {
+    padding: 5px;
+}
+input, textarea {
+    padding: 3px;
+    font-size: 16px;
+}
+/* thong tin ca nhan */
+
+.headerxinchao {
+    color: red;
+    border-bottom: 1px dotted red;
+    padding: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    object-fit: cover;
+    margin: 5px 5px 0 5px;
+}
+.infotext {
+    width: 300px;
+    vertical-align: top;
+}
+.infotext p{
+    margin: 7px 0;
+}
+.bangthongtin {margin: 0 auto}
+/* danh sach sp */
+.container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: lightgrey;
+}
+.hello {
+    color: red;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px dotted red;
+}
+.danhsachsp_desc {
+    padding: 10px 0 10px 0;
+}
+.bangds {
+    background-color: aliceblue;
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+.bangds tr:first-child {
+    background-color: darkgray;
+}
+.dangxuat_btn:hover {
+    background-color: #6d27dc;
+    color: white;
+}
+.ctsp .bangds tr:first-child {
+    background-color: white;
+}
+.ctsp .bangds tr:last-child {
+    text-align: center;
+}
+.bangds td, .bangds th {padding: 6px;text-align: center;}
+.ctsp .bangds{
+    width: auto;
+}
+.ctsp .bangds .info {
+    text-align: left;
+}
+.ctsp .bangds td:nth-child(2) {
+    width: 100%;
+    vertical-align: top;
+}
+.ctsp .bangds .dangxuat_btn {
+    margin-top: 0px;
+}
+.dangxuat_btn {
+    box-shadow: 1px 0px 10px 3px #ffffff;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.center_transform {
+    transform: translate(-50%);
+    margin-left: 50%;
+}
+.txtcenter {
+    padding: 15px;
+    text-align: center;
+}
+.anhchitiet{
+    height: 250px;
+    border: 1px solid white;
+}
+.tensp {
+    font-size: 26px;
+    line-height: 1.2;
+}
+.giasp {
+    font-size: 33px;
+    font-weight: 500;
+    color: #ee4d2d;
+}
+.chitietsp {
+    word-break: break-all;
+    line-height: 1.5;
+}
+.bangchitiet {
+    width: 600px;
+    margin: 0 auto;
+}
+.bangchitiet table {
+    border-collapse: collapse;
+}
+.bangchitiet table tr td:first-child{
+    width: 250px;
+}
+.bangchitiet table tr td:last-child{
+    width: 350px;
+}
+
+.optionimg {
+    width: 30px;
+}

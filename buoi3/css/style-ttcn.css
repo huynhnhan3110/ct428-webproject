@@ -1,0 +1,66 @@
+body {
+    background-color: #e5eaf5;
+    font-family: 'Poppins', sans-serif;
+}
+.bangthongtin {
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 39px;
+    min-height: 380px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+.infotext {
+    padding: 0 37px 0 37px;
+    vertical-align: top;
+}
+h3 {
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 33px;
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+span {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+}
+h3::after {
+    position: absolute;
+    content: "";
+    width: 47%;
+    top: 50%;
+    height: 3px;
+    background-color: rgb(181, 181, 181);
+}
+p {
+    font-size: 18px;
+    margin: 30px 0;
+}
+strong {
+    font-weight: bold;
+}
+.buttonarea {
+    margin-top: 64px;
+}
+.dangxuat_btn {
+    padding: 10px;
+    background-color: rgb(181, 181, 181);
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.25s ease-in 0s;
+}
+.dangxuat_btn:hover {
+    background-color: rgb(235, 98, 21);
+}
+.headerxinchao {
+    text-align: center;
+    margin: 40px 0 0 0;
+    font-size: 32px;
+    font-weight: bold;
+}
