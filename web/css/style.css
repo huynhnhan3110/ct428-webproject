@@ -1,0 +1,66 @@
+body {
+    font-family: 'Baloo 2', cursive;
+}
+.author {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to left, 
+    #7a7c8f, #aaacb7);
+    
+}
+.subject {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #232847a9;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 20px 80px;
+    margin: 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.button--buoi1 {
+    background-image: linear-gradient(to left, #50cdc6,#69edac);
+    box-shadow: 0 0 10px rgba(105, 237, 171, 0.521);
+}
+.button--buoi2 {
+    background-image: linear-gradient(to left, #75b8ee,#aee5ff);
+    box-shadow: 0 0 10px rgba(174, 229, 255, 0.588);    
+}
+.button--buoi3 {
+    background-image: linear-gradient(to left, #ae8ef2,#b0bfff);
+    box-shadow: 0 0 10px rgba(174, 142, 242, 0.514);
+}
+.button--buoi4 {
+    background-image: linear-gradient(to left, #fda464,#ffd79a);
+    box-shadow: 0 0 10px rgba(255, 215, 154, 0.589);
+}
+.button--buoi5 {
+    background-image: linear-gradient(to left, #ee7976,#fec2ae);
+    box-shadow: 0 0 10px rgba(238, 122, 118, 0.479);
+}
+.list__button {
+    list-style-type: none;
+    text-align: center;
+}
+.list__item{
+    display: inline-block;
+}
+.backtoindex {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+#menu ul > li > a:hover {
+    background-color: crimson;
+}   
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu ul li a {
+    padding: 15px 30px;
+    background-color: yellowgreen;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    width: 100px;
+    color: white;
+}
+
+#menu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu ul li ul {
+    display: none;
+}
+#menu ul > li {
+    display: inline-block;
+    position: relative;
+}
+div#menu {
+    margin: 0;
+    padding: 0;
+    background: yellowgreen;
+    display: inline-block;
+}

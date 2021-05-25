@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head> 
+	<title> Lập trình web (CT428) </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style-buoi4.css" media="screen" />
+	<script>
+		var COMPANY_LINKS = [];
+		COMPANY_LINKS[0] = 'http://www.hp.com/';
+		COMPANY_LINKS[1] = 'http://www.dell.com/';
+		COMPANY_LINKS[2] = 'http://www.acer.com/';
+		COMPANY_LINKS[3] = 'htpp://www.asus.com/';
+
+		var IMAGE_PATHS = [];
+		IMAGE_PATHS[0] = "img/hp.jpg";
+		IMAGE_PATHS[1] = "img/dell.jpg";
+		IMAGE_PATHS[2] = "img/acer.jpg";
+		IMAGE_PATHS[3] = "img/asus.jpg";
+		
+		var interval = null;
+		function activateTimer() {
+			interval = setInterval("doihinh()", 2000);
+		}
+		function pauseTimer() {
+			clearInterval(interval);
+		}
+		var inext = 0;
+		function doihinh() {
+			var image = document.getElementById("laptopImg");
+			var link = document.getElementById("link");
+
+			inext++;
+			if(inext == 4) {
+				inext = 0;
+			}
+			image.src = IMAGE_PATHS[inext];
+			link.href = COMPANY_LINKS[inext];
+		}
+
+		function firstLoad(){
+			setTimeout("activateTimer()");
+		}
+	</script>
+</head>	
+<body onload="firstLoad()">
+<div id="wrap">
+	<div id="title">
+		<h1>Bài 3 - Buổi 4</h1>
+	</div> <!--end div title-->
+	<div id="menu">
+		<ul>
+			<li><a href="#">Buổi 1</a>
+				<ul>
+					<li><a href="../../../web/THbuoi1/bai1.html">Bài 1</a></li>
+					<li><a href="../../../web/THbuoi1/bai2.html">Bài 2</a></li>
+					<li><a href="../../../index.html">Bài 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Buổi 2</a>
+				<ul>
+					<li><a href="../../../web/THbuoi2/bai1.html">Bài 1</a></li>
+					<li><a href="../../../web/THbuoi2/div.html">Bài 2</a></li>
+					<li><a href="../../../web/THbuoi2/Buoi2_Bai3/index.html">Bài 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Buổi 3</a>
+				<ul>
+					<li><a href="../../../buoi3/dangky.php">Bài 1</a></li>
+					<li><a href="../../../buoi3/dangnhap.php">Bài 2</a></li>
+					<li><a href="../../../buoi3/themsanpham.php">Bài 3</a></li>
+					<li><a href="../../../buoi3/danhsachsp.php">Bài 4</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">Buổi 4</a>
+				<ul>
+					<li><a href="../../../buoi3/dangnhap.php">Bài 1</a></li>
+					<li><a href="../../../js/Buoi4_Bai2.html">Bài 2</a></li>
+					<li><a href="../../../js/Buoi4_Bai3.html">Bài 3</a></li>
+					<li><a href="../buoi3/Buoi4_Bai2.php">Bài 4</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Buổi 5</a>
+				<ul>
+					<li><a href="#">Bài 1</a></li>
+					<li><a href="#">Bài 2</a></li>
+					<li><a href="#">Bài 3</a></li>
+					<li><a href="#">Bài 4</a></li>
+				</ul>		
+			</li>
+		</ul>
+	</div> <!--end div menu-->
+	<div id="content">
+		<!--Nội dung trang web-->
+		<h1>Quảng cáo</h1>
+		
+		<a href="http://www.hp.com" target="_blank" id="link">
+			<img id="laptopImg" name="laptopImg" src="img/hp.jpg" height="300" width="300" onmouseover="pauseTimer()" onmouseout="activateTimer()" />
+		</a>
+		
+		<p>Yêu cầu:<br/>
+		Có 4 hình ảnh của 4 công ty muốn quảng cáo đính kèm. Đầu tiên hiển thị một hình, cứ 2 giây thì thay hình ảnh khác, xoay vòng giữa 4 hình ảnh đã cho.<br/>
+		Khi người dùng rê chuột lên hình nào thì hình đó dừng lại không thay đổi để người dùng đọc thông tin về quảng cáo đó, 
+		khi nào người dùng rê chuột khỏi thì 2 giây sau mới cho hiển thị hình tiếp theo.<br/>
+		Khi người dùng click vào hình nào thì liên kết đến website của hình đó ở cửa sổ mới.
+		</p>
+	</div> <!--end div content-->
+	<div id="footer">
+		<p>Họ tên SV: Huỳnh Hữu Nhân<br/> Email: huynhnhan.dev@gmail.com</p>
+	</div> <!--end div footer-->
+</div> <!--end div wrap-->
+</body>
+</html>

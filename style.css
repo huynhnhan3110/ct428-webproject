@@ -1,0 +1,416 @@
+body {
+
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+}
+
+.menu {
+
+    background-color: #111111;
+
+    padding: 0 10px 0 10px;
+
+}
+
+.menu .logo {
+
+    display: inline-block;
+
+}
+
+.menu .logo_text {
+
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+
+}
+
+.menu img {
+
+    width: 100px;
+
+    
+
+}
+
+.menu__list {
+    float: right;
+
+    margin: 0;
+    padding: 0;
+}
+
+.menu__item {
+
+
+    display: inline-block;
+
+}
+
+.menu__item a {
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+
+    font-weight: 400;
+display: block;
+    padding: 20px;
+    color:#86898a;
+
+}
+.menu__item:last-of-type{
+    position: relative;
+}
+.menu__item > ul {
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    left:  0;
+    top: 100%;
+    list-style: none;
+}
+
+.menu__item ul li a{
+    text-transform: none;
+    text-align: center;
+    display: block;
+    background-color: rgb(17, 17, 17);
+    border-bottom: 1px solid rgb(55 55 55);
+    width: 100px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.menu__item:hover > ul {
+    display: block;
+}
+
+.menu__item a:hover {
+
+    color: white;
+
+}
+.menu__item > ul > li {
+    position: relative;
+}
+.lesson {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+}
+.menu__item ul li:hover .lesson {
+    display: block;
+}
+
+.hasChild::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f104";
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight:900;
+}
+
+/* intro hero */
+
+.homescreen {
+
+    height: 100vh;
+    background-color: #333;
+    background-image: url(./images/first-screen-bottom.png) ,url(./images/first-screen-bg.jpg);
+    background-position: bottom, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1920px, cover;
+
+}
+.homescreen td:nth-child(1) {
+    padding-top: 110px;
+    width: 45%;
+}
+.homescreen td:nth-child(2) {
+    position: relative;
+}
+.first-screen__phone {
+    width: 450px;
+    height: 666px;
+    margin: 0px 0 0 55px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    z-index: 1;
+}
+.first-screen__elements {
+    width: 927px;
+    height: 523px;
+    margin: 0px 0 0 -141px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+.homescreen {
+
+    color: #fff;
+
+}
+
+.homescreen h4 {
+
+    font-size: 20px;
+
+    color: #c3c7c7;
+
+    margin-bottom: 10px;
+
+}
+
+.homescreen h1 {
+
+    margin-top: 0px;
+
+    font-size: 38px;
+
+}
+
+.homescreen td:nth-child(2) {
+
+    padding-top: 30px;
+
+}
+
+
+
+/* about */
+
+.about {
+
+    padding-top: 80px;
+
+}
+
+.about h2 {
+
+    font-size: 30px;
+
+}
+
+.about_title {
+
+   
+
+    text-align: center;
+
+}
+
+.about_desc {
+
+    padding: 0px;
+
+    font-weight: 300;
+
+    font-size: 20px;
+
+    color: #afb3b3;
+
+    line-height:1.7;
+
+}
+
+.xemtrichdan:nth-child(1) {
+
+    width: 350px;
+
+
+
+}
+
+.xemtrichdan {
+
+    vertical-align: text-top;
+
+
+
+}
+
+.xemtrichdan i {
+
+    
+
+    font-size: 50px;
+
+    color: #86898a;
+
+}
+
+.xemtrichdan p {
+
+    padding-right: 20px;
+
+}
+
+/* screenshow */
+
+.screenshow {padding-top: 70px;
+
+padding-bottom: 70px;}
+
+.screenshow img {
+
+    width: 100%;
+
+}
+
+
+
+/* download */
+.dammay {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.may {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.may img {
+	max-width: 100%;
+    height: 100%;
+}
+.may1{
+	animation: dichuyendammay 25s linear infinite;
+}
+.may2{
+	animation: dichuyendammay 50s linear infinite;
+}
+.may3{
+	animation: dichuyendammay2 35s linear infinite;
+}
+@keyframes dichuyendammay {
+	0% {
+		margin-left: 100%;
+
+	}
+	100% {
+		margin-left: -100%;
+	};
+}
+@keyframes dichuyendammay2 {
+	0% {
+		margin-left: 100%;
+
+	}
+	50% {
+		margin-left: 100%;
+	}
+	100% {
+		margin-left: -100%;
+	}
+}
+
+.download {
+	background-image: url(./images/nendownload.jpg);
+    padding-top: 180px;
+	background-size: cover;
+    padding-bottom: 180px;
+	background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #39b54a;
+	position: relative;
+    text-align: center;
+
+    color: white;
+
+}
+
+.download h2 {
+
+    font-weight: 700;
+
+}
+
+.download p {
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+
+}
+.download .container {
+	position: relative;
+	z-index: 99;
+}
+.download .container img {
+
+    width: 170px;
+
+}
+
+.footer {
+
+    text-align: center;
+
+}
+
+#backtotop a {
+
+    text-align: center;
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 17px;
+
+    border-radius: 50%;
+
+    width: 30px;
+
+    height: 30px;
+
+    line-height: 32px;
+
+    display: block;
+
+    background: lightblue;
+
+    color: black;
+
+}
+
+ #backtotop a:hover {
+    color: white;
+    background-color: teal;
+}
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bài 2</title>
+
+</head>
+
+<body>
+
+    <h2 style="color: red; text-align: center;">Đăng ký tài khoản mới</h2>
+
+    <p style="text-align: center;">Vui lòng điền đầy đủ thông tin bên dưới để đăng ký tài khoản mới</p>
+
+    <form action="/xyly.php" method="POST">
+
+    <table border="0" style="background-color: beige;border: 1px solid black; padding: 10px; margin: 0 auto;">
+
+        <tr>
+
+            <td><label for="username">Tên đăng nhập</label></td>
+
+            <td><input type="text" name="username" id="username"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="pass">Mật khẩu</label></td>
+
+            <td><input type="password" name="pass" id="pass"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="repass">Gõ lại mật khẩu</label></td>
+
+            <td><input type="password" name="repass" id="repass"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td><label for="avatar">Hình đại diện</label></td>
+
+            <td><input type="file" name="avatar" id="avatar"></td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Giới tính</td>
+
+            <td>
+
+                <input type="radio" name="gender" value="Nam" id="male"><label for="male"> Nam</label>  
+
+                <input type="radio" name="gender" value="Nu" id="female"><label for="female"> Nữ</label>
+
+                <input type="radio" name="gender" value="other" id="other"><label for="other"> Khác</label>  
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Nghề nghiệp</td>
+
+            <td>
+
+                <select name="occupation">
+
+                    <option value="hocsinh">Học sinh</option>
+
+                    <option value="sinhvien">Sinh viên</option>
+
+                    <option value="giaovien">Giáo viên</option>
+
+                    <option value="other">Khác</option>
+
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td>Sở thích</td>
+
+            <td>
+
+                <input type="checkbox" name="sport" id="sport"><label for="sport"> Thể thao</label> 
+
+                <input type="checkbox" name="travel" id="travel"><label for="travel"> Du lịch</label>
+
+                <input type="checkbox" name="music" id="music"><label for="music"> Âm nhạc</label>
+
+                <input type="checkbox" name="fashion" id="fashion"><label for="fashion"> Thời trang</label>
+
+                
+
+            </td>   
+
+        </tr>
+
+        <tr>
+
+            <td>&nbsp;</td>
+
+        </tr>
+
+        <tr>
+
+            <td></td>
+
+            <td>
+
+                <input type="submit" value="Đăng ký">
+
+                <input type="reset" value="Làm lại">
+
+            </td>
+
+        </tr>
+
+    </table>
+
+    </form>
+    <p style="text-align: center;">Huỳnh Hữu Nhân (B1807580) - Nhóm sáng T4</p>
+</body>
+
+</html>

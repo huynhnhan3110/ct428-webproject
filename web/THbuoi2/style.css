@@ -1,0 +1,32 @@
+th {
+    background-color: wheat;
+}
+table {
+    margin: 0 auto;
+    width: 700px;
+    border-collapse: collapse;
+}
+th, td {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+td {
+    text-align: center;
+    width: 100px;
+}
+table tr td {
+    background-color: khaki;
+}
+.no-data {
+    background-color: bisque;
+}
+td:hover {
+    background-color: thistle;
+}
+#footer {
+
+    text-align: center;
+}
