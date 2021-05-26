@@ -1,5 +1,22 @@
-# Welcome to GitHub Desktop!
+# This is the first project when I learn web development in school
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+* Sign in, sign up
+* Add, edit, delete, view product
+* View profile user
+* Storing data in MySQL
+* Live search with Ajax and so on..
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+# Some screenshots
+![Image](https://i.imgur.com/Qig3qaq.png)
+
+![Image](https://i.imgur.com/WLXbcvN.png)
+
+![Image](https://i.imgur.com/ERCIqIL.png)
+
+![Image](https://i.imgur.com/kphBcj6.png)
+
+![Image](https://i.imgur.com/AtSZjKo.png)
+
+![Image](https://i.imgur.com/QXX0ztM.png)
+
+![Image](https://i.imgur.com/dUfoVNK.png)
